@@ -114,22 +114,22 @@ public class Percolation {
     }
 
     // test client (optional)
-    public static void main(String[] args){
-        boolean isPercolates = false;
-        boolean isFull = false;
-        int openCount = 0;
-        Percolation percolo = new Percolation(5);
-        percolo.open(2, 1);
-        percolo.open(1, 1);
-        percolo.open(2, 2);
-        percolo.open(3, 2);
-        percolo.open(4, 2);
-        isPercolates = percolo.percolates();
-        percolo.open(5, 3);
-        percolo.open(5, 1);
-        percolo.open(5, 2);
-        isPercolates = percolo.percolates();
-        openCount = percolo.numberOfOpenSites();
-        System.out.println("open");
-    }
+    // public static void main(String[] args){
+    //     boolean isPercolates = false;
+    //     boolean isFull = false;
+    //     int openCount = 0;
+    //     Percolation percolo = new Percolation(5);
+    //     percolo.open(2, 1);
+    //     percolo.open(1, 1);
+    //     percolo.open(2, 2);
+    //     percolo.open(3, 2);
+    //     percolo.open(4, 2);
+    //     isPercolates = percolo.percolates();
+    //     percolo.open(5, 3);
+    //     percolo.open(5, 1);
+    //     percolo.open(5, 2);
+    //     isPercolates = percolo.percolates();
+    //     openCount = percolo.numberOfOpenSites();
+    //     System.out.println("open");
+    // }
 }
